@@ -2,7 +2,6 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
 
 :root {
   --mainColor: #03edf9;
@@ -39,15 +38,6 @@
   --font-japanese:Whitney,"Hiragino Sans","\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN",メイリオ,Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-chinese-simplified:Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-chinese-traditional:Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif
-}
-
-.panels-3wFtMD {
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  border: 1px solid var(--background-secondary);
-  border-radius: 20px;
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
 }
 
 @font-face{
