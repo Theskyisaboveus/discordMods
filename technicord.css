@@ -873,7 +873,9 @@ body {
   -webkit-mask-composite: xor;
 }
 
-
+.role-2TIOKu .roleCircle-3K9O3d:after {
+  background: linear-gradient(to right, var(--background-secondary-alt), transparent);
+}
 
 .role-2TIOKu:focus .roleRemoveIcon-387wKV,
 .role-2TIOKu:hover .roleRemoveIcon-387wKV,
