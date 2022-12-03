@@ -2,14 +2,8 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
-@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
 
 :root {
-  --server-unread-colour: 255, 255, 255;
-  --server-hover-colour: 255, 255, 255;
-  --server-selected-colour: var(--accent, 0, 231, 169);
-  --server-spacing: 16px;
-  --server-glow-intensity: 1;
   --mainColor: #03edf9;
   --backgroundColor01: #2a2139;
   --backgroundColor02: #241b2f;
@@ -844,6 +838,20 @@ body {
   margin-bottom: 12px !important;
 }
 
+.role-2TIOKu {
+    transform: translate(0);
+    overflow: hidden;
+    border: 0;
+    --transparency: .4;
+    border-radius: 5px;
+}
+
+.role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%,-50%);
+}
+
 #app-mount .rolesList-3uZoaa>.role-2TIOKu {
   border: none ;
   border-radius: 0px ;
@@ -869,6 +877,8 @@ body {
   left: 0;
   z-index: -1;
   border-radius: 4px;
+  background: inherit;
+  opacity: var(--transparency);
 }
 
 .role-2TIOKu .roleCircle-3K9O3d:before {
