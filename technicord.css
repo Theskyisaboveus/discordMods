@@ -2,8 +2,14 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
 
 :root {
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 0, 231, 169);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
   --mainColor: #03edf9;
   --backgroundColor01: #2a2139;
   --backgroundColor02: #241b2f;
@@ -895,17 +901,6 @@ body {
 
 .iconWrapper-eK7GO6 {
   background-color: var(--backgroundColor02) !important;
-}
-
-.privateChannels-oVe7HL [href="/store"] + svg,
-.item-3XjbnG [class*="Promo"],
-.premiumLabel-3HPvdB svg,
-.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
-    display: none;
-}
-
-.premiumLabel-3HPvdB {
-    color: var(--color-muted);
 }
 
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
