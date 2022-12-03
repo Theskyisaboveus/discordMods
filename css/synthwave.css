@@ -1,6 +1,5 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/icon-settings.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/font.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
 
@@ -28,7 +27,6 @@
   --rs-invisible-color: #b6b1b1;
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
-  --customFont: "Whitney";
   --rs-version: "1.0.2";
   --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
   --chat-bubble: 0;
@@ -38,7 +36,6 @@
   line-height: 1;
   margin: 0;
   padding: 0;
-  font-family: var(--customFont) !important;
   font-size: 14px !important;
   overflow: hidden;
 }
@@ -53,7 +50,6 @@ body {
   line-height: 1;
   margin: 0;
   padding: 0;
-  font-family: var(--customFont) !important;
   overflow: hidden;
   background: transparent;
   border-radius: 3px;
@@ -720,7 +716,6 @@ body {
   padding: 10px 0;
   align-items: center;
   justify-content: center;
-  font-family: var(--customFont) !important;
   border-bottom: none !important;
   background: var(--backgroundColor02) !important;
 }
@@ -982,7 +977,6 @@ body {
   padding: 10px 0;
   align-items: center;
   justify-content: center;
-  font-family: var(--customFont);
   border-bottom: linear-gradient(to right, #03edf920, #fc28a890) !important;
   background: var(--backgroundColor02) !important;
 }
@@ -1265,7 +1259,6 @@ body {
 
 .defaultColor-2cKwKo {
   color: #fff;
-  font: var(--customFont) !important;
   font-size: 20px !important;
 }
 
