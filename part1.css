@@ -315,6 +315,9 @@ body {
   font-family: var(--font-primary);
   font-size: 14px;
   line-height: 18px;
+  padding-left: 4px !important;
+  align-content: left;
+  align: left;
 }
 
 .PronounDB-style-container .PronounDB-style-header {
