@@ -863,6 +863,8 @@ body {
   left: 0;
   z-index: -1;
   border-radius: 4px;
+  background: inherit;
+  opacity: var(--transparency);
 }
 
 .role-2TIOKu .roleCircle-3K9O3d:before {
