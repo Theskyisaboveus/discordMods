@@ -863,8 +863,6 @@ body {
   left: 0;
   z-index: -1;
   border-radius: 4px;
-  background: inherit;
-  opacity: var(--transparency);
 }
 
 .role-2TIOKu .roleCircle-3K9O3d:before {
@@ -897,6 +895,17 @@ body {
 
 .iconWrapper-eK7GO6 {
   background-color: var(--backgroundColor02) !important;
+}
+
+.privateChannels-oVe7HL [href="/store"] + svg,
+.item-3XjbnG [class*="Promo"],
+.premiumLabel-3HPvdB svg,
+.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
+    display: none;
+}
+
+.premiumLabel-3HPvdB {
+    color: var(--color-muted);
 }
 
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
