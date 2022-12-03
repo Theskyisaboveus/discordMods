@@ -38,54 +38,6 @@
   --font-japanese:Whitney,"Hiragino Sans","\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN",メイリオ,Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-chinese-simplified:Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-chinese-traditional:Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif
-  --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
-  --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
-}
-.role-2TIOKu {
-  transform: translate(0);
-  border: 0;
-  border-radius: var(--roles-roundness-calc);
-}
-.role-2TIOKu .roleRemoveIcon-387wKV {
-  margin: 0;
-  left: unset;
-  transform: translate(50%,-50%);
-}
-.role-2TIOKu .roleRemoveButton-17oXnT{position: static}
-.role-2TIOKu .roleCircle-3K9O3d:before {
-  content: '';
-  top: 0;left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  position: absolute;
-  background: inherit;
-  border-radius: var(--roles-roundness-calc);
-  border: 2px solid transparent;
-  -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-}
-
-.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
-.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
-.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
-.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
-.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
-    display: none;
-}
-.accountProfilePopoutWrapper-3GskID {
-    left: 0;
-}
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
-    margin: 0;
-    border-radius: 4px;
-}
-.accountProfilePopoutWrapper-3GskID > div,
-.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
-    border-radius: 4px;
-    width: 220px;
 }
 
 @font-face{
@@ -921,9 +873,7 @@ body {
   -webkit-mask-composite: xor;
 }
 
-.role-2TIOKu .roleCircle-3K9O3d:after {
-  background: linear-gradient(to right, var(--background-secondary-alt), transparent);
-}
+
 
 .role-2TIOKu:focus .roleRemoveIcon-387wKV,
 .role-2TIOKu:hover .roleRemoveIcon-387wKV,
