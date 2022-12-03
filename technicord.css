@@ -2,6 +2,7 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
 
 :root {
   --mainColor: #03edf9;
@@ -18,8 +19,6 @@
   --rs-medium-width: 3px;
   --rs-large-width: 4px;
   --rs-width: 2px;
-  --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
-  --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px);
   --rs-avatar-shape: 50%;
   --rs-online-color: #72f1b8;
   --rs-idle-color: #fede5d;
@@ -40,6 +39,15 @@
   --font-japanese:Whitney,"Hiragino Sans","\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN",メイリオ,Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-chinese-simplified:Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-chinese-traditional:Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.panels-3wFtMD {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 1px solid var(--background-secondary);
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
 }
 
 @font-face{
@@ -840,30 +848,59 @@ body {
   margin-bottom: 12px !important;
 }
 
-#app-mount .role-2TIOKu {
+#app-mount .rolesList-3uZoaa>.role-2TIOKu {
+  border: none ;
+  border-radius: 0px ;
   transform: translate(0);
-  border: 0;
-  border-radius: var(--roles-roundness-calc);
+  --border: 1;
 }
-.role-2TIOKu .roleRemoveIcon-387wKV {
-  margin: 0;
-  left: unset;
-  transform: translate(50%,-50%);
+
+.role-2TIOKu>.roleRemoveButton-17oXnT {
+  position: static;
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
 }
-.role-2TIOKu .roleRemoveButton-17oXnT{position: static}
-.role-2TIOKu .roleCircle-3K9O3d:before {
+
+.role-2TIOKu .roleCircle-3K9O3d:before,
+.role-2TIOKu .roleCircle-3K9O3d:after {
   content: '';
-  top: 0;left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
   box-sizing: border-box;
   position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.role-2TIOKu .roleCircle-3K9O3d:before {
   background: inherit;
-  border-radius: var(--roles-roundness-calc);
+  border-radius: 5px;
   border: 2px solid transparent;
-  -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  -webkit-mask: linear-gradient(rgba(0, 0, 0, var(--border)) 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+}
+
+.role-2TIOKu .roleCircle-3K9O3d:after {
+  background: linear-gradient(to right, var(--background-secondary-alt), transparent);
+}
+
+.role-2TIOKu:focus .roleRemoveIcon-387wKV,
+.role-2TIOKu:hover .roleRemoveIcon-387wKV,
+.roleRemoveIconFocused-1BliR4 .roleRemoveIcon-387wKV {
+  display: inline-block;
+}
+
+.role-2TIOKu>.roleRemoveButton-17oXnT>.roleRemoveIcon-387wKV {
+  position: static;
+  transform: translate(6px, -13px);
+}
+
+.role-2TIOKu>.roleRemoveButton-17oXnT>.roleCircle-3K9O3d {
+  display: inline-block;
+  margin: 0;
 }
 
 .iconWrapper-eK7GO6 {
