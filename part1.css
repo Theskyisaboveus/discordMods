@@ -311,14 +311,7 @@ body {
 }
 */
 
-.text-sm-medium-3Pz3rB {
-  font-family: var(--font-primary);
-  font-size: 14px;
-  line-height: 18px;
-  padding-left: 4px !important;
-}
-
-.text-sm-normal-3Zj3Iv {
+.text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv {
   font-family: var(--font-primary);
   font-size: 14px;
   line-height: 18px;
