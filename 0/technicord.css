@@ -3551,23 +3551,6 @@ svg aria-hidden {
   border-color: var(--backgroundColor01) !important;
 }
 
-#app-mount .profileBannerPreview-3_l0Wd {
-  background-color: var(--backgroundColor01) !important;
-}
-
-#app-mount .accountProfileCard-lbN7n- {
-  background-color: var(--backgroundColor01) !important;
-}
-
-#app-mount .accountProfileCard-lbN7n- .fieldList-in8WkP {
-  background-color: var(--backgroundColor02) !important;
-  padding: 15px;
-}
-
-#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
-  border-color: var(--backgroundColor01) !important;
-}
-
 #app-mount .contentColumn-1C7as6,
 #app-mount .customColumn-2n-oKU {
   max-width: 100%;
@@ -4353,7 +4336,7 @@ svg aria-hidden {
   display: block;
 }
 
-.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
+#app-mount .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
 .accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
 .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
@@ -4362,17 +4345,34 @@ svg aria-hidden {
     display: none;
 }
 
-.accountProfilePopoutWrapper-3GskID {
+#app-mount .accountProfilePopoutWrapper-3GskID {
     left: 0;
 }
 
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+#app-mount .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
     margin: 0;
     border-radius: 4px;
 }
 
-.accountProfilePopoutWrapper-3GskID > div,
+#app-mount .accountProfilePopoutWrapper-3GskID > div,
 .accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
     border-radius: 4px;
     width: 220px;
+}
+
+#app-mount .profileBannerPreview-3_l0Wd {
+  background-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .accountProfileCard-lbN7n- {
+  background-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .accountProfileCard-lbN7n- .fieldList-in8WkP {
+  background-color: var(--backgroundColor02) !important;
+  padding: 15px;
+}
+
+#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
+  border-color: var(--backgroundColor01) !important;
 }
