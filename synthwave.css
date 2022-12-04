@@ -666,7 +666,7 @@ body {
 }
 
 .role-2TIOKu .roleCircle-3K9O3d:before {
-  background: inherit;
+  background: transparent;
   border-radius: 5px;
   border: 2px solid transparent;
   -webkit-mask: linear-gradient(rgba(0, 0, 0, var(--border)) 0 0) padding-box, linear-gradient(#fff 0 0);
