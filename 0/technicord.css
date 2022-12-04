@@ -3551,6 +3551,23 @@ svg aria-hidden {
   border-color: var(--backgroundColor01) !important;
 }
 
+#app-mount .profileBannerPreview-3_l0Wd {
+  background-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .accountProfileCard-lbN7n- {
+  background-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .accountProfileCard-lbN7n- .fieldList-in8WkP {
+  background-color: var(--backgroundColor02) !important;
+  padding: 15px;
+}
+
+#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
+  border-color: var(--backgroundColor01) !important;
+}
+
 #app-mount .contentColumn-1C7as6,
 #app-mount .customColumn-2n-oKU {
   max-width: 100%;
@@ -4151,6 +4168,30 @@ svg aria-hidden {
   background-color: var(--backgroundColor01);
 }
 
+#app-mount .customStatus-3XAoF9 {
+  padding: 0 16px;
+}
+
+#app-mount .userPopout-2j1gM4 {
+  background-color: var(#34294f) !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#app-mount .bodyInnerWrapper-2bQs1k,
+#app-mount .footer-3naVBw,
+#app-mount .userPopout-2j1gM4 {
+  background-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .avatar-22FtUu {
+  border: 6px solid var(--backgroundColor01);
+  background-color: var(--backgroundColor02);
+}
+
 #app-mount .footer-1fjuF6 input {
   background-color: rgba(0, 0, 0, 0.3) !important;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -4310,70 +4351,4 @@ svg aria-hidden {
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
   content: "Synthwave '84 " var(--rs-version);
   display: block;
-}
-
-#app-mount .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
-#app-mount .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
-.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
-.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
-.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
-.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
-    display: none;
-}
-
-#app-mount .accountProfilePopoutWrapper-3GskID {
-    left: 0;
-}
-
-#app-mount .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
-    margin: 0;
-    border-radius: 4px;
-}
-
-#app-mount .accountProfilePopoutWrapper-3GskID > div,
-.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
-    border-radius: 4px;
-    width: 220px;
-}
-
-#app-mount .profileBannerPreview-3_l0Wd {
-  background-color: var(--backgroundColor01) !important;
-}
-
-#app-mount .accountProfileCard-lbN7n- {
-  background-color: var(--backgroundColor01) !important;
-}
-
-#app-mount .accountProfileCard-lbN7n- .fieldList-in8WkP {
-  background-color: var(--backgroundColor02) !important;
-  padding: 15px;
-}
-
-#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
-  border-color: var(--backgroundColor01) !important;
-}
-
-#app-mount .customStatus-3XAoF9 {
-  padding: 0 16px;
-}
-
-#app-mount .userPopout-2j1gM4 {
-  background-color: var(#34294f) !important;
-  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-}
-
-#app-mount .bodyInnerWrapper-2bQs1k,
-#app-mount .footer-3naVBw,
-#app-mount .userPopout-2j1gM4 {
-  background-color: var(--backgroundColor01) !important;
-}
-
-#app-mount .avatar-22FtUu {
-  border: 6px solid var(--backgroundColor01);
-  background-color: var(--backgroundColor02);
 }
