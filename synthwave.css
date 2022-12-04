@@ -657,13 +657,19 @@ body {
   box-sizing: border-box;
   position: absolute;
   background: inherit;
-  /*border-radius: 4px;
-  border: 2px solid transparent;*/
+  border-radius: 50px;
+  border: 2px solid transparent;
   -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
 }
 
 /*
+
+#app-mount .role-2TIOKu {
+  background-color: transparent !important;
+  border: 2px solid currentColor;
+  border-radius: 50px;
+}
 
 #app-mount .rolesList-3uZoaa>.role-2TIOKu {
   border: none ;
@@ -4062,12 +4068,6 @@ svg aria-hidden {
 
 #app-mount .note-3HfJZ5 {
   margin: 0 8px 0 0 !important;
-}
-
-#app-mount .role-2TIOKu {
-  background-color: transparent !important;
-  border: 2px solid currentColor;
-  border-radius: 50px;
 }
 
 #app-mount .addButton-1_dZYu {
