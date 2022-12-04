@@ -639,9 +639,8 @@ body {
 }
 
 .role-2TIOKu {
-  border: 2px solid transparent;
   transform: translate(0);
-  border: 0;
+  border: 2px solid transparent;
   border-radius: 35px;
 }
 .role-2TIOKu .roleRemoveIcon-387wKV {
