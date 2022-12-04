@@ -864,6 +864,7 @@ body {
   left: 0;
   z-index: -1;
   border-radius: 4px;
+  border: 2px solid transparent;
 }
 
 .role-2TIOKu .roleCircle-3K9O3d:before {
@@ -876,6 +877,7 @@ body {
 
 .role-2TIOKu .roleCircle-3K9O3d:after {
   background: linear-gradient(to right, var(--background-secondary-alt), transparent);
+  border: 2px solid transparent;
 }
 
 .role-2TIOKu:focus .roleRemoveIcon-387wKV,
