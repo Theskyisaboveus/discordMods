@@ -4236,7 +4236,7 @@ svg aria-hidden {
 
 #app-mount .role-2TIOKu {
   background-color: transparent !important;
-  border: 2px solid currentColor;
+  border: 0;
   border-radius: 50px;
 }
 
