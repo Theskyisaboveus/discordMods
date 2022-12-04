@@ -639,6 +639,7 @@ body {
 }
 
 .role-2TIOKu {
+  border: 2px solid transparent;
   transform: translate(0);
   border: 0;
   border-radius: 35px;
@@ -659,7 +660,7 @@ body {
   position: absolute;
   background: inherit;
   border-radius: 35px;
-  border: 3px solid transparent;
+  /*border: 3px solid transparent;*/
   -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
 }
