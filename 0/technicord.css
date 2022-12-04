@@ -4151,30 +4151,6 @@ svg aria-hidden {
   background-color: var(--backgroundColor01);
 }
 
-#app-mount .customStatus-3XAoF9 {
-  padding: 0 16px;
-}
-
-#app-mount .userPopout-2j1gM4 {
-  background-color: var(#34294f) !important;
-  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-}
-
-#app-mount .bodyInnerWrapper-2bQs1k,
-#app-mount .footer-3naVBw,
-#app-mount .userPopout-2j1gM4 {
-  background-color: var(--backgroundColor01) !important;
-}
-
-#app-mount .avatar-22FtUu {
-  border: 6px solid var(--backgroundColor01);
-  background-color: var(--backgroundColor02);
-}
-
 #app-mount .footer-1fjuF6 input {
   background-color: rgba(0, 0, 0, 0.3) !important;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -4337,6 +4313,7 @@ svg aria-hidden {
 }
 
 #app-mount .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
+#app-mount .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
 .accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
 .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
@@ -4375,4 +4352,28 @@ svg aria-hidden {
 
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
   border-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .customStatus-3XAoF9 {
+  padding: 0 16px;
+}
+
+#app-mount .userPopout-2j1gM4 {
+  background-color: var(#34294f) !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#app-mount .bodyInnerWrapper-2bQs1k,
+#app-mount .footer-3naVBw,
+#app-mount .userPopout-2j1gM4 {
+  background-color: var(--backgroundColor01) !important;
+}
+
+#app-mount .avatar-22FtUu {
+  border: 6px solid var(--backgroundColor01);
+  background-color: var(--backgroundColor02);
 }
