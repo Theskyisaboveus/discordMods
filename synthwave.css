@@ -657,8 +657,8 @@ body {
   box-sizing: border-box;
   position: absolute;
   background: inherit;
-  border-radius: 4px;
-  border: 2px solid transparent;
+  /*border-radius: 4px;
+  border: 2px solid transparent;*/
   -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
 }
